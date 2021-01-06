@@ -1,0 +1,50 @@
+let str = "happy";
+let num = 1232;
+let int = str + num;
+console.log(int);
+function numa(sum){ return sum %2 == 0 ? "even" : "odd";}
+console.log(numa(30));
+console.log(numa(22));
+console.log(numa(33));
+console.log(numa(40));
+let hab = "123";
+let hab1 = parseInt(hab, 10);
+console.log(hab1);
+let tamer = "130.7"
+let tamer1 = parseFloat(tamer);
+console.log(tamer1);
+let isDog = true;
+console.log(isDog ? "pat pat": "find me a dog to pat");
+console.log(Math.min (-1, 0, 1, 2, 3, 4))
+console.log(Math.max (-1, 0, 1, 2, 3, 4));
+let floor = 3321.32321;
+console.log(Math.floor(floor));
+let floor1 = 326.76;
+console.log(Math.floor(floor1));
+let floor2 = 76788.7;
+console.log(Math.floor(floor2));
+let floor3 = -9.78;
+console.log(Math.floor(floor3));
+let floor4 = 28.329;
+console.log(Math.floor(floor4));
+let cell = 3321.32321;
+console.log(Math.ceil(cell));
+let cell1 = 326.76;
+console.log(Math.ceil(cell1));
+let cell2 = 76788.7;
+console.log(Math.ceil(cell2));
+let cell3 = -9.78;
+console.log(Math.ceil(cell3));
+let cell4 = 28.329;
+console.log(Math.ceil(cell4));
+let uname = "Hi my name is ahmed and I am";
+let age = 39;
+let aboutme = uname + " " + age;
+console.log(aboutme);
+// + helps to combine many variable in one//
+let numm = "1005";
+let numm1 = parseFloat(numm, 10);
+console.log(numm1);
+let numm2 = "10.05";
+let numm3 = parseFloat(numm2);
+console.log(numm3);
